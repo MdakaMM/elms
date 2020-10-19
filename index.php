@@ -118,8 +118,8 @@ else{
                                 <span class="material-design-hamburger__layer"></span>
                             </a>
                         </section>
-                        <div class="header-title col s3">      
-                            <span class="chapter-title">ELMS | Employee Leave Management System</span>
+                        <div>      
+                            <span class="chapter-title">ELMS | EMPLOYEE LEAVE MANAGEMENT SYSTEM</span>
                         </div>
                       
                            

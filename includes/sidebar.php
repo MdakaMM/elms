@@ -46,7 +46,7 @@ foreach($results as $result)
                    
                 </ul>
                 <div class="footer">
-                    <p class="copyright"><a href="http://phpgurukul.com/"> ELMS </a>©</p>
+                    <p class="copyright"><a href=#> ELMS </a>©</p>
                 
                 </div>
                 </div>

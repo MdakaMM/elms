@@ -182,7 +182,7 @@ body:not(.loaded) .mn-content {
     height: 60px!important;
 }
 
-.header-title {
+/* .header-title {
     font-size: 15px;
     font-weight: bold;
     text-transform: uppercase;
@@ -201,7 +201,7 @@ body:not(.loaded) .mn-content {
 
 .navbar-fixed .header-title {
     margin-left: 56px;
-}
+} */
 
 nav {
     position: relative;
