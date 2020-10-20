@@ -1,6 +1,4 @@
-<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">  
-  
-     <aside id="slide-out" class="side-nav white fixed">
+    <aside id="slide-out" class="side-nav white fixed">
                 <div class="side-nav-wrapper">
                     <div class="sidebar-profile">
                         <div class="sidebar-profile-image">
@@ -25,6 +23,8 @@ foreach($results as $result)
                         </div>
                     </div>
               
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">  
+
                 <ul class="sidebar-menu collapsible collapsible-accordion" data-collapsible="accordion">
                   
   <li class="no-padding"><a class="waves-effect waves-grey" href="myprofile.php"><i class="material-icons">account_box</i>My Profiles</a></li>
