@@ -49,8 +49,8 @@ else{
         <meta name="author" content="Steelcoders" />
         
         <!-- Styles -->
-        <link type="text/css" rel="stylesheet" href="assets/plugins/materialize/css/materialize.min.css"/>
-             <link href="assets/css/materialdesign.css" rel="stylesheet">
+        <!-- <link type="text/css" rel="stylesheet" href="assets/plugins/materialize/css/materialize.min.css"/>
+             <link href="assets/css/materialdesign.css" rel="stylesheet"> -->
         <link href="assets/plugins/material-preloader/css/materialPreloader.min.css" rel="stylesheet">        
 
         	
@@ -65,7 +65,7 @@ else{
         <script src="http://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
         <script src="http://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
         <![endif]-->
-        
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         
     </head>
     <body>
@@ -131,18 +131,16 @@ else{
                 </nav>
             </header>
            
-            <link href="https://fonts.googleapis.com/icons?family=material+icons" rel="stylesheet">
-            
+
             <aside id="slide-out" class="side-nav white fixed">
                 <div class="side-nav-wrapper">
                    
                   
                 <ul class="sidebar-menu collapsible collapsible-accordion" data-collapsible="accordion" style="">
                     <li>&nbsp;</li>
-                    <li class="no-padding"><a class="waves-effect waves-grey" href="index.php"><i class="material-icons">account_box</i>Employe Login</a></li>
+                    <li class="no-padding"><a class="waves-effect waves-grey" href="index.php"><i class="material-icons">account_box</i>Employee Login</a></li>
                     <li class="no-padding"><a class="waves-effect waves-grey" href="forgot-password.php"><i class="material-icons">account_box</i>Emp Password Recovery</a></li>
-                
-                       <li class="no-padding"><a class="waves-effect waves-grey" href="admin/"><i class="material-icons">account_box</i>Admin Login</a></li>
+                    <li class="no-padding"><a class="waves-effect waves-grey" href="admin/"><i class="material-icons">account_box</i>Admin Login</a></li>
                 
                 </ul>
           <div class="footer">
