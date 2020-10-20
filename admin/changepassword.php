@@ -13,7 +13,7 @@ if(isset($_POST['change']))
 $password=md5($_POST['password']);
 $newpassword=md5($_POST['newpassword']);
 $username=$_SESSION['alogin'];
-    $sql ="SELECT Password FROM admin WHERE UserName=:username and Password=:password";
+    //$sql ="SELECT Password FROM admin WHERE UserName=:username and Password=:password";
 $query= $dbh -> prepare($sql);
 $query-> bindParam(':username', $username, PDO::PARAM_STR);
 $query-> bindParam(':password', $password, PDO::PARAM_STR);
@@ -29,7 +29,8 @@ $chngpwd1->execute();
 $msg="Your Password succesfully changed";
 }
 else {
-$error="Your current password is wrong";    
+//$error="Your current password is wrong";
+$error="Admin Password cannot be changed, granted only for testing purposes.";    
 }
 }
 ?>
@@ -69,7 +70,7 @@ $error="Your current password is wrong";
                               
                                 <div class="row">
                                     <form class="col s12" name="chngpwd" method="post">
-                                          <?php if($error){?><div class="errorWrap"><strong>ERROR</strong>:<?php echo htmlentities($error); ?> </div><?php } 
+                                          <?php if($error){?><div class="errorWrap"><strong style="color:red;">ERROR</strong>:<?php echo htmlentities($error); ?> </div><?php } 
                 else if($msg){?><div class="succWrap"><strong>SUCCESS</strong>:<?php echo htmlentities($msg); ?> </div><?php }?>
                                         <div class="row">
                                             <div class="input-field col s12">
@@ -90,7 +91,7 @@ $error="Your current password is wrong";
 
 <div class="input-field col s12">
 <button type="submit" name="change" class="cyan darken-3 btn m-b-xs" onclick="return valid();">Change</button>
-
+<p>Note: Admin Password cannot be changed, only for testing.</p>
 </div>
 
 
