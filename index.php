@@ -49,8 +49,8 @@ else{
         <meta name="author" content="Steelcoders" />
         
         <!-- Styles -->
-        <!-- <link type="text/css" rel="stylesheet" href="assets/plugins/materialize/css/materialize.min.css"/>
-             <link href="assets/css/materialdesign.css" rel="stylesheet"> -->
+        <link type="text/css" rel="stylesheet" href="assets/plugins/materialize/css/materialize.min.css"/>
+             <link href="assets/css/materialdesign.css" rel="stylesheet">
         <link href="assets/plugins/material-preloader/css/materialPreloader.min.css" rel="stylesheet">        
 
         	
