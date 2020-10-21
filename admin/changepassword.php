@@ -91,7 +91,7 @@ $error="Admin Password cannot be changed, granted only for testing purposes.";
 
 <div class="input-field col s12">
 <button type="submit" name="change" class="cyan darken-3 btn m-b-xs" onclick="return valid();">Change</button>
-<p>Note: Admin Password cannot be changed, only for testing.</p>
+<p>Note: It wont allow you for password change, for testing purposes.</p>
 </div>
 
 

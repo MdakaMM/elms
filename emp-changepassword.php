@@ -13,7 +13,7 @@ if(isset($_POST['change']))
 $password=md5($_POST['password']);
 $newpassword=md5($_POST['newpassword']);
 $username=$_SESSION['emplogin'];
-    $sql ="SELECT Password FROM tblemployees WHERE EmailId=:username and Password=:password";
+    //$sql ="SELECT Password FROM tblemployees WHERE EmailId=:username and Password=:password";
 $query= $dbh -> prepare($sql);
 $query-> bindParam(':username', $username, PDO::PARAM_STR);
 $query-> bindParam(':password', $password, PDO::PARAM_STR);
@@ -29,7 +29,8 @@ $chngpwd1->execute();
 $msg="Your Password succesfully changed";
 }
 else {
-$error="Your current password is wrong";    
+//$error="Your current password is wrong";  
+$error="Password cannot be changed, granted only for testing purposes.";   
 }
 }
 ?>
@@ -79,7 +80,7 @@ $error="Your current password is wrong";
             <main class="mn-inner">
                 <div class="row">
                     <div class="col s12">
-                        <div class="page-title">Change Pasword</div>
+                        <div class="page-title">Change Password</div>
                     </div>
                     <div class="col s12 m12 l6">
                         <div class="card">
@@ -108,7 +109,7 @@ $error="Your current password is wrong";
 
 <div class="input-field col s12">
 <button type="submit" name="change" class="cyan darken-3 btn m-b-xs" onclick="return valid();">Change</button>
-
+<p>Note: It wont allow you for password change, for testing purposes.</p>
 </div>
 
 

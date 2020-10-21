@@ -32,13 +32,14 @@ $msg="Your Password succesfully changed";
         
         <!-- Styles -->
         <link type="text/css" rel="stylesheet" href="assets/plugins/materialize/css/materialize.min.css"/>
-        <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link href="assets/plugins/material-preloader/css/materialPreloader.min.css" rel="stylesheet">        
 
         	
         <!-- Theme Styles -->
         <link href="assets/css/alpha.min.css" rel="stylesheet" type="text/css"/>
         <link href="assets/css/custom.css" rel="stylesheet" type="text/css"/>
+        
   <style>
         .errorWrap {
     padding: 10px;
@@ -110,7 +111,7 @@ $msg="Your Password succesfully changed";
                                 <span class="material-design-hamburger__layer"></span>
                             </a>
                         </section>
-                        <div class="header-title col s3">      
+                        <div class="header-title col s12">      
                             <span class="chapter-title">ELMS | Employee Leave Management System</span>
                         </div>
                       
