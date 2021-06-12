@@ -8,10 +8,10 @@
 
 
 // Remote Database Connection
-define('DB_HOST','sql10.freemysqlhosting.net');
-define('DB_USER','sql10371624');
-define('DB_PASS','J4QIk9zEGE');
-define('DB_NAME','sql10371624');
+define('DB_HOST','sql4.freemysqlhosting.net');
+define('DB_USER','sql4418741');
+define('DB_PASS','KWTecgimxc');
+define('DB_NAME','sql4418741');
 try
 {
 $dbh = new PDO("mysql:host=".DB_HOST.";dbname=".DB_NAME,DB_USER, DB_PASS,array(PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES 'utf8'"));
